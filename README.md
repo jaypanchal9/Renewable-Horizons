@@ -1,3 +1,4 @@
+
 # Renewable Horizons: A Spatial and Temporal Analysis of Australia's Energy Transition and Its Environmental Impact
 
 ## Overview
@@ -33,14 +34,32 @@ With climate change being a pressing issue, this project seeks to provide insigh
   - `plotly`, `highcharter`, `ggplot2`, `forecast` for visualizations and interactive plots.
 
 ## Data Sources
-The project uses multiple datasets related to energy generation, consumption, and emissions. Key datasets include:
-- **Australian Energy Update 2023**: Energy consumption data by energy source and state.
-- **Postcode Data for Small-Scale Installations**: Annual installation data for various renewable energy sources.
-- **State & Territory Inventories 2022**: Emission data by state and sector.
-- **Geospatial Data**: Shapefiles for Australian postcodes to visualize spatial trends in energy installations.
+The datasets used in this project are private and stored in the `Data/` folder. To access the datasets, please contact me at: **panchaljayofficial@gmail.com**
 
 ## Installation
 To run this project locally, ensure you have R and the following libraries installed:
 
 ```R
 install.packages(c("shiny", "shinydashboard", "leaflet", "dplyr", "sf", "purrr", "readxl", "RColorBrewer", "plotly", "highcharter", "ggplot2", "forecast"))
+```
+
+### Running the Project
+1. Clone this repository.
+   ```bash
+   git clone https://github.com/your-username/renewable-horizons.git
+   ```
+2. Open the R project and run the Shiny app.
+   ```R
+   shiny::runApp('app.R')
+   ```
+
+## Usage
+1. **Energy Generation Tab**: View trends in renewable energy installations across Australia by region and year.
+2. **Energy Consumption Tab**: Analyze the shift from non-renewable to renewable energy sources over time.
+3. **Emissions Impact Tab**: Explore how the energy transition has affected emissions and air quality across Australian states.
+
+## Contributing
+Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
+
+## License
+This project is licensed under the MIT License.
