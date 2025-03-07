@@ -62,4 +62,4 @@ install.packages(c("shiny", "shinydashboard", "leaflet", "dplyr", "sf", "purrr",
 Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the GNU General Public License v3.0 
